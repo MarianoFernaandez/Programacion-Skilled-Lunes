@@ -1,23 +1,28 @@
-#titulo {
+.titulo {
     color: red;
+    font-family:cursive;
 }
 
-#subtitulo {
-    color: blue;
+.subtitulo {
+    color: green;
+    font-family:'Times New Roman', Times, serif;
 }
 
-#cuerpo {
-    background-color: bisque;
-    display: flex;              /* activa Flexbox */
-    flex-direction: column;     /* los elementos se apilan en columna */
-    justify-content: center;    /* centra verticalmente */
-    align-items: center;        /* centra horizontalmente */
-    height: 100vh;              /* altura de la pantalla completa */
-    margin: 0;   
+body {
+    width: 80%;     /* PASO 1: Establece un ancho menor al 100% */
+    margin: 0 auto;  /* PASO 2: Centrado horizontal mediante márgenes automáticos */
+    max-width: 1200px;        /* Opcional pero recomendado: Límite superior para el ancho */
+    background-color: rgb(135, 135, 108);
 }
 
 #imagen {
     width: 300px;
     height: 300px;
     margin: 20px auto;
+}
+
+.palabra {
+    color: red;
+    font-size: 50px;
+    font-family: fantasy;
 }
