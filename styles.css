@@ -1,0 +1,23 @@
+#titulo {
+    color: red;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+#cuerpo {
+    background-color: bisque;
+    display: flex;              /* activa Flexbox */
+    flex-direction: column;     /* los elementos se apilan en columna */
+    justify-content: center;    /* centra verticalmente */
+    align-items: center;        /* centra horizontalmente */
+    height: 100vh;              /* altura de la pantalla completa */
+    margin: 0;   
+}
+
+#imagen {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
