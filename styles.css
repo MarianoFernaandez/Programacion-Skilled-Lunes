@@ -1,6 +1,5 @@
 .titulo {
-    color: red;
-    font-family:cursive;
+    font-family: montserrat;
 }
 
 .subtitulo {
@@ -25,4 +24,20 @@ body {
     color: red;
     font-size: 50px;
     font-family: fantasy;
+}
+
+.caja {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.cajados {
+    background-color: green;
+}
+
+input {
+    width: 96.5%;
+    height: 50%;
+    padding: 30px 30px 30px 30px
 }
