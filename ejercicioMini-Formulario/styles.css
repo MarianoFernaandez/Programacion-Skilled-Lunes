@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Contenedor principal */
+main {
+    margin: 30px 0;
+}
+
+/* Sección del formulario */
+.formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 320px;
+    margin: 0 auto; /* Centra horizontalmente */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Campos del formulario */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 87px;
+    padding: 20px 0;
+}

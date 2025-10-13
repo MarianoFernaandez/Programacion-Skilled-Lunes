@@ -24,6 +24,8 @@ body {
     color: red;
     font-size: 50px;
     font-family: fantasy;
+        text-decoration: underline;
+
 }
 
 .caja {
@@ -36,7 +38,7 @@ body {
     background-color: green;
 }
 
-input {
+.cajatexto {
     width: 96.5%;
     height: 50%;
     padding: 30px 30px 30px 30px
