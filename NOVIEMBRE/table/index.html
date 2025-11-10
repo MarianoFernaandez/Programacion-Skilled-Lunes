@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!--- 
+
+Que es cada cosa:
+
+<table> → crea la tabla.
+
+<tr> → crea una fila (“table row”).
+
+<td> → crea una celda (“table data”).
+
+<th> (“table header”) aparece en negrita y centrado por defecto.
+
+-->
+
+<!--- Tabla -->
+
+<h2>Tabla</h2>
+
+<body>
+    <table>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+        </tr>
+        <tr>
+            <td>Dato 3</td>
+            <td>Dato 4</td>
+        </tr>
+    </table>
+
+<!--- Tabla con titulos -->
+
+<h2>Tabla con titulos</h2>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Mariano</td>
+            <td>Fernández</td>
+            <td>25</td>
+        </tr>
+    </table>   
+
+<!--- Tabla con productos (Uso real) -->
+
+<h2>Tabla con producutos</h2>
+
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>Manzana</td>
+            <td>$2</td>
+            <td>1 kg</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>$3</td>
+            <td>1 kg</td>
+        </tr>
+        <tr>
+            <td>Melón</td>
+            <td>$4</td>
+            <td>1 unidad</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <td colspan="2">$9</td>
+        </tr>
+    </table>
+
+<!--- Tabla Organizada -->
+
+<h2>Tabla con producutos (Organizada)</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Banana</td>
+                <td>$3</td>
+                <td>4 unidades</td>
+            </tr>
+            <tr>
+                <td>Melón</td>
+                <td>$4</td>
+                <td>1 unidad</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td colspan="2">$7</td>
+            </tr>
+            <tr>
+                <th>Precio final</th>
+                <td colspan="2">$10</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+

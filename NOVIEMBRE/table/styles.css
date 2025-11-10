@@ -1,0 +1,25 @@
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px #0003;
+}
+
+th, td {
+    border: 2px solid #0003;
+    padding: 8px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+tfoot {
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
