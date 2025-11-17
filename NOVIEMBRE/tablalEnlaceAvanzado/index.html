@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Avanzado y Enlaces</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Contacto del Estudiante</h1>
+
+    <form>
+        <fieldset>
+            <legend>Información Básica</legend>
+
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" placeholder="Juan Pérez" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" placeholder="ejemplo@gmail.com" required>
+
+            <label for="pais">País</label>
+            <select id="pais">
+                <option>Argentina</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+            </select>
+
+            <label for="ciudad">Ciudad</label>
+            <input list="ciudades" id="ciudad" placeholder="Elegí una ciudad">
+            <datalist id="ciudades">
+                <option value="Buenos Aires">
+                <option value="Rosario">
+                <option value="Córdoba">
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensaje</legend>
+            <label for="mensaje">Escribí tu mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="Contame sobre tu proyecto..."></textarea>
+
+            <label>
+                <input type="checkbox" required>
+                Acepto los <a href="terminos.html" target="_blank" rel="noopener noreferrer">términos y condiciones</a>
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+
+    <details>
+        <summary>Enlaces de contacto directo</summary>
+        <p>
+            📧 <a href="mailto:profeivan@gmail.com">Enviar un correo</a><br>
+            📞 <a href="tel:+5491123456789">Llamar al profesor</a><br>
+                <a href="terms.html" download>Descargar terminos y condiciones</a><br>
+            🌐 <a href="terms.html" target="_blank" rel="noopener noreferrer">Terminos</a>
+        </p>
+    </details>
+
+</body>
+</html>
