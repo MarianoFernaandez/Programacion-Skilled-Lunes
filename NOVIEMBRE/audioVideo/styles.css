@@ -1,0 +1,26 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6cf;
+}
+
+.media-video {
+    width: 100%;          /* hace que el video se adapte al ancho */
+    max-width: 600px;     /* evita que se agrande demasiado */
+    display: block;       /* permite usar margin auto */
+    margin: 20px auto;
+    background-color: #000; /* fondo negro por si tarda en cargar */
+}
+
+.media-audio {
+    width: 100%;          /* que el reproductor ocupe todo el ancho */
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}

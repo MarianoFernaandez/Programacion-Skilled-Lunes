@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Ejemplo de Audio y Video en HTML5</h1>
+
+    <!-- VIDEO -->
+    <h2>Video de ejemplo</h2>
+
+    <!-- controls = muestra los controles del reproductor
+        autoplay = intenta reproducir automáticamente
+        muted = obligatorio para que autoplay funcione
+        loop = reinicia el video automáticamente
+        poster = "Imagen" = imagen previa del video
+    -->
+    <video controls autoplay muted loop poster="./video/messi-1805.jpg" class="media-video">
+        <!-- source = permite agregar varios formatos -->
+        <source src="/NOVIEMBRE/audioVideo/video/TOP 25 Goles MÁS IMPRESIONANTES de Lionel Messi en la Selección Argentina.mp4" type="video/mp4">
+
+        <!-- track = subtítulos externos -->
+        <track src="subtitulos.vtt" kind="captions" srclang="es" label="Español">
+
+        <!-- Texto alternativo si el navegador no soporta video -->
+        Tu navegador no soporta video.
+    </video>
+
+    <!--Ejemplo youtube-->
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/HxelqBCICZU" 
+        title="Video YouTube"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        class="media-video">
+    </iframe>
+
+    <!-- AUDIO -->
+    <h2>Audio de ejemplo</h2>
+
+    <!-- controls = muestra botones
+        loop = repite el audio
+    -->
+    <audio controls loop class="media-audio">
+        <!-- audio mp3 estándar -->
+        <source src="./video/Canción-de-ColaCao-Aventura-en-la-selva.mp3" type="audio/mp3">
+        Tu navegador no soporta audio.
+    </audio>
+
+
+</body>
+</html>
