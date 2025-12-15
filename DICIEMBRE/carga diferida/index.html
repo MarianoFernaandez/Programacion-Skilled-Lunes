@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostración Lazy Load</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #222;
+            color: #eee;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            margin: 0 0 30px 0;
+        }
+
+        .section {
+            height: 100vh; /* Esto simula scroll largo */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            border-bottom: 2px solid #444;
+        }
+
+        .img-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        img {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #0008;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demostración de Carga Diferida (Lazy Load)</h1>
+
+    <!-- Sección 1 -->
+    <div class="section">
+        Sección 1 (sin imágenes todavía)
+    </div>
+
+    <div class="img-container">
+        <!-- IMAGEN 1 (solo se carga cuando el usuario baja lo suficiente) -->
+        <img src="Messi.jpg" loading="lazy" alt="Imagen 1 en carga diferida">
+    </div>
+
+    <!-- Sección 2 -->
+    <div class="section">
+        Sección 2
+    </div>
+
+    <div class="img-container">
+        <!-- IMAGEN 2 -->
+        <img src="Messi.jpg" loading="lazy" alt="Imagen 2 en carga diferida">
+    </div>
+
+    <!-- Sección 3 -->
+    <div class="section">
+        Sección 3
+    </div>
+
+    <div class="img-container">
+        <!-- IMAGEN 3 -->
+        <img src="Messi.jpg" loading="lazy" alt="Imagen 3 en carga diferida">
+    </div>
+
+    <!-- Sección 4 -->
+    <div class="section">
+        Sección 4
+    </div>
+
+    <div class="img-container">
+        <!-- IMAGEN 4 -->
+        <img src="Messi.jpg" loading="lazy" alt="Imagen 4 en carga diferida">
+    </div>
+
+    <!-- Sección 5 -->
+    <div class="section">
+        Sección 5
+    </div>
+
+    <div class="img-container">
+        <!-- IMAGEN 5 -->
+        <img src="Messi.jpg" loading="lazy" alt="Imagen 5 en carga diferida">
+    </div>
+
+</body>
+</html>
