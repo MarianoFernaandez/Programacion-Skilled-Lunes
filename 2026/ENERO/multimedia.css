@@ -1,0 +1,10 @@
+.body {
+    background-color:(--color-principal);
+}
+
+ imagen1 {
+    background-color: (--color-secundario);
+    align-self: center;
+    box-shadow: black;
+    border-radius: 16px;
+ }

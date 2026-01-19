@@ -1,0 +1,129 @@
+:root {
+    --color-principal: #0F2854;
+    --color-secundario: #1C4D8D;
+    --color-terciario: #4988C4;
+    --color-cuarto: #BDE8F5;
+}
+
+
+
+.Target{
+    background-color: #4988C4;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.Target1{
+    color: #ffffff;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+.DD {
+    background-color: #4988C4;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos {
+    color: rgb(255, 255, 255);               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+.DD0 {
+    background-color: #4988C4;    
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos0 {
+    color: rgb(255, 255, 255);               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+    .DD1 {
+    background-color: #4988C4;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos1 {
+    color: rgb(255, 255, 255);               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+    .DD2 {
+    background-color: #4988C4;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos2 {
+    color: #ffffff;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+
+    body{
+        background-color: var(--color-principal);
+    }

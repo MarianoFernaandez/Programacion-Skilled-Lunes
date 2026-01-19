@@ -1,0 +1,13 @@
+#tituloprincipal {
+text-align:center;
+font-family:arial;
+}
+
+.body {
+    background-color:(--color-principal) ;
+}
+
+.enlaces{
+gap:20px;
+list-style: none;
+}
