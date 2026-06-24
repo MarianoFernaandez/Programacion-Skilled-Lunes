@@ -1,10 +1,233 @@
-.body {
-    background-color:(--color-principal);
+:root {
+    --color-principal: #0F2854;
+    --color-secundario: #1C4D8D;
+    --color-terciario: #4988C4;
+    --color-cuarto: #BDE8F5;
 }
 
- imagen1 {
-    background-color: (--color-secundario);
-    align-self: center;
-    box-shadow: black;
+header {
+    width: 100%;
+    height: 150px; /* ajusta la altura si la quieres más alta/baja */
+    background-size: cover;        /* ocupa todo el header */
+    background-position: center;   /* centra la parte visible de la imagen */
+    background-repeat: no-repeat;
+    background-color: var(--color-terciario);     /* color de respaldo si carga lento */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+
+.Target{
+    background-color: #BDE8F5;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.Target1{
+    color: #1C4D8D;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+.DD {
+    background-color: #BDE8F5;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos {
+    color: #1C4D8D;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+.DD0 {
+    background-color: #BDE8F5;    
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos0 {
+    color:#1C4D8D;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+    .DD1 {
+    background-color: #BDE8F5;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos1 {
+    color: #1C4D8D;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+    .DD2 {
+    background-color: #BDE8F5;
+    width: 22%;
+    min-width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quita subrayado */
+    border-radius: 8px;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+.Puntos2 {
+    color: #1C4D8D;               /* color del texto */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 1.2rem;
+    pointer-events: none; /* Permite que el click funcione en el enlace */
+    }
+
+body {
+    background-color: var(--color-cuarto);
+    color: white
+}
+
+h1 {
+    background: linear-gradient(to bottom, #0F2854, #1C4D8D);
+    background-clip: text;    
+    color: transparent; 
+    display: flex;              
+    justify-content: start;     
+    align-items: start;        
+    font-family: fantasy;       
+    font-size: 60px;
+}
+
+details {
+    margin-left: 20px;
+    max-width: 800px;
+    width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px var(--color-terciario);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--color-principal);
+}   
+
+.imagen1 {
+    background-color: var(--color-secundario);
+    box-shadow: var(--color-cuarto);
     border-radius: 16px;
- }
+    width: 300px;
+    margin: 0 auto;
+}
+.archivosmultimedia {
+    background-color: var(--color-secundario);
+    box-shadow:  0 4px 20px var(--color-cuarto);
+    border-radius: 16px;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.video {
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background: var(--color-terciario);
+    color: var(--color-cuarto);
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.DD:hover {
+  background: var(--color-principal);
+  transform: scale(1.1);
+}
+.DD0:hover {
+  background: var(--color-principal);
+  transform: scale(1.1);
+}
+.DD1:hover {
+  background: var(--color-principal);
+  transform: scale(1.1);
+}
+.DD2:hover {
+  background: var(--color-principal);
+  transform: scale(1.1);
+}

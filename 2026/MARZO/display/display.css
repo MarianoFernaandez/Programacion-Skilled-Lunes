@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+Una opcion seria usar esto
+
+.nav__item {
+    padding: 10px;
+    background-color: #48e;
+    border: 1px solid black;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+        border: 1px solid black;
+
+}
+

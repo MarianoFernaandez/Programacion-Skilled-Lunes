@@ -1,0 +1,19 @@
+.contenedor {
+    background: #ccc;
+    padding: 20px;
+}
+
+a {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    background: red;
+    color: white;
+}
+
+#caja {
+    height: 0px;
+    width: 0px;
+    margin: 0;
+}
